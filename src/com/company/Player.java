@@ -14,7 +14,7 @@ public class Player {
         setSalary(3000000);
     }
 
-    public void getAllInfo(){
+    public void getPLayerInfo(){
         System.out.println("Name: "+getName());
         System.out.println("Number: "+getNumber());
         System.out.println("Position: "+getPosition());

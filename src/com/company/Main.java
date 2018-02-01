@@ -1,16 +1,15 @@
 package com.company;
 
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-       Player p = new Player();
-       p.getAllInfo();
-       p.setName("Lionel Messi");
-       p.setNumber(10);
-       p.setPosition("Right wing");
-       p.setSalary(2500000);
-       p.getAllInfo();
+
+        Pencil pencil1 = new Pencil(.7, "Dixon", "Orange", false);
+        Pencil pencil2 = new Pencil(.8, "Paper-Mate","Yellow", false);
+        System.out.println("Pencil1: "+pencil1.getColor());
+        System.out.println("Pencil2: "+pencil2.getColor());
 
 
     }
